@@ -1,0 +1,54 @@
+---
+title: "Simulationsbericht"
+author: "Samuel Maselli"
+date:   "`r Sys.Date()`"
+editor: visual
+lang: de
+language: 
+  title-block-author-single: "Autor:"
+  title-block-published: "Version vom:"
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+    theme: sandstone
+    fig-width: 8
+    fig-height: 6
+    fig-align: "center"
+    fig-caption: true
+    df-print: kable
+    highlight: "monochrome"
+---
+
+# Entwurf für M21-Modelle
+
+Dieses Dokument soll die Grundlage legen für einen automatisierten Simulationsbericht von MIKE 21 Simulationen. Die Entwicklung geschieht im privaten Umfeld und ist nicht für kommerzielle Zwecke vorgesehen.
+
+Samuel Maselli, 08.11.2023
+
+## Brainstorming
+
+### Anforderungen an Bericht
+
+-   Grundlageninformationen (Simulationsnummer, Modell, Perimeter)
+-   Details Simulationslauf
+-   Übersicht Resultate
+-   Details Resultate
+-   Fazit und Bemerkungen
+-   Disclaimer
+
+## Vorlagedaten
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
