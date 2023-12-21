@@ -1,0 +1,28 @@
+---
+title: "Embedded Shiny App"
+output: html_document
+runtime: shiny
+---
+
+# Embedded Shiny App
+
+This is an embedded Shiny app that takes a number and displays it.
+
+```{r}
+library(shiny)
+
+# Define UI
+ui <- fluidPage(
+  numericInput("number_input", "Enter a number:", value = 0),
+  verbatimTextOutput("number_output")
+)
+
+# Define server logic
+server <- function(input, output) {
+  output$number_output <- renderPrint({
+    input$number_input
+  })
+}
+
+# Run the application
+shinyApp(ui = ui, server = server)

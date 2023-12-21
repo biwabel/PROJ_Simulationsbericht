@@ -1,0 +1,42 @@
+---
+title: "Document Title"
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: margin=1in
+---
+
+# Background
+
+| Information | Details |
+|-------------|---------|
+| R Version   |         |
+| Package     |         |
+| Function    |         |
+| Date        |         |
+| Username    |         |
+| Comment     |         |
+
+![Company Logo](path/to/company_logo.png)
+
+# Input
+
+| Variable Name | Value | Unit |
+|---------------|-------|------|
+|               |       |      |
+|               |       |      |
+|               |       |      |
+|               |       |      |
+|               |       |      |
+
+# Output
+
+| Variable Name | Value | Unit |
+|---------------|-------|------|
+|               |       |      |
+|               |       |      |
+|               |       |      |
+|               |       |      |
+|               |       |      |
+
+*Document generated on `r format(Sys.time(), "%Y-%m-%d %H:%M:%S")`*
